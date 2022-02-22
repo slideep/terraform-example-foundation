@@ -1,5 +1,13 @@
 # Changelog
 
+### [2.3.2](https://github.com/terraform-google-modules/terraform-example-foundation/compare/v2.3.1...v2.3.2) (2022-02-22)
+
+
+### Bug Fixes
+
+* data_access_logs_enabled now enables read and write audit logs, defaults to false for cost savings ([#630](https://github.com/terraform-google-modules/terraform-example-foundation/issues/630)) ([8391f1b](https://github.com/terraform-google-modules/terraform-example-foundation/commit/8391f1bd4322fec04fda7509b537c5f66cddbbd9))
+* grant permissions required by TFV to CB SA ([#629](https://github.com/terraform-google-modules/terraform-example-foundation/issues/629)) ([ffa6a93](https://github.com/terraform-google-modules/terraform-example-foundation/commit/ffa6a93582bdf242bf273a2ff2e984cf6149bb89))
+
 ### [2.3.1](https://www.github.com/terraform-google-modules/terraform-example-foundation/compare/v2.3.0...v2.3.1) (2021-10-15)
 
 
